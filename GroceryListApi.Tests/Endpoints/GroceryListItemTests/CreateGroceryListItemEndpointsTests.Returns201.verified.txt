@@ -1,0 +1,30 @@
+﻿{
+  Version: 1.1,
+  Status: 201 Created,
+  Headers: {
+    Location: http://localhost/stores/1/items/4
+  },
+  Content: {
+    Headers: {
+      Content-Type: application/json; charset=utf-8
+    },
+    Value: {
+      id: 4,
+      storeId: 1,
+      title: Test item,
+      isComplete: false
+    }
+  },
+  Request: {
+    Method: POST,
+    Uri: http://localhost/stores/1/items,
+    Headers: {},
+    Content: {
+      Headers: {
+        Content-Length: 65,
+        Content-Type: application/json; charset=utf-8
+      },
+      Value: 
+    }
+  }
+}
