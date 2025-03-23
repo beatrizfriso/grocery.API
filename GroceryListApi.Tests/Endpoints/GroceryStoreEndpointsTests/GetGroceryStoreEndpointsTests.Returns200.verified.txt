@@ -1,0 +1,5 @@
+﻿{
+  id: 1,
+  name: Test,
+  description: Test store 1
+}
